@@ -1,0 +1,388 @@
+/* ---------Main Sections----------- */
+body {
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-wrapper {
+
+    /* unpopulated-state */
+    position: relative;
+    width: 550px;
+    height: 550px;
+
+    border-style: solid;
+    border-color: #10B981;
+    border-radius: 20px;
+
+
+    background: #1F2937;
+
+
+}
+
+/* ---------Heading----------- */
+.main-heading {
+
+    /* Heading */
+    position: absolute;
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 118px;
+
+    font-family: Karla;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+    color: #FFFFFF;
+}
+
+.green-text {
+    color: #4ADF86;
+}
+
+/* ---------Main Paragraph----------- */
+.main-para {
+
+    /* Supporting text */
+    position: absolute;
+    width: 372px;
+    height: 28px;
+    left: 52px;
+    top: 215px;
+
+    /* text-xl/leading-7/font-normal */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    /* Medium grey */
+    color: #D5D4D8;
+}
+
+
+/* ---------Generate Button----------- */
+.gen-btn {
+    /* Button */
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 287px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+
+.btn-text {
+    
+    /* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
+}
+
+
+.btn-2 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 390px;
+    top: 280px;
+
+      
+    /* text-base/leading-6/font-medium */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    border: 2px #10B981 solid;
+    border-style: solid;
+    border-color: #10B981;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+.len-title {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 310px;
+    top: 295px;
+}
+
+/* Styling the Input Field */
+input {
+    all: unset;
+    overflow: auto;
+    caret-color: transparent;
+}
+
+::placeholder {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+
+
+/* -----------------Second Section (Dynamic)----------------- */
+.line {
+
+    /* Line 17 */
+    position: absolute;
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 364px;
+
+    border: 1px solid #2F3E53;
+}
+
+.pass-section {
+    display: flex;
+
+}
+
+.item-1 {
+    /* Rectangle 95 */
+
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 52px;
+top: 399px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+.item-2 {
+
+/* Rectangle 96 */
+
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 287px;
+top: 399px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+.item-3 {
+/* Rectangle 97 */
+
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 52px;
+top: 465px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+.item-4 {
+/* Rectangle 98 */
+
+
+position: absolute;
+width: 211px;
+height: 39px;
+left: 287px;
+top: 465px;
+
+background: #273549;
+border-radius: 6px;
+}
+
+
+/* -----------------Passwords----------------- */
+
+.pass-1 {
+    /* Text */
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 0px;
+    top: -13px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+}
+
+button{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+
+    position: absolute;
+    width: 223px;
+    height: 42px;
+    left: 52px;
+    top: 287px;
+
+    background: #273549;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+}
+
+.copy-btn {
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 100px;
+    top: -50px;
+
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+
+}
+
+.pass-2 {
+        /* Text */
+
+
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 0px;
+        top: -13px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* identical to box height, or 200% */
+    
+        text-align: center;
+    
+        color: #55F991;
+}
+
+.pass-3 {
+        /* Text */
+
+
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 0px;
+        top: -13px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* identical to box height, or 200% */
+    
+        text-align: center;
+    
+        color: #55F991;
+}
+
+.pass-4 {
+        /* Text */
+
+
+        position: absolute;
+        width: 211px;
+        height: 39px;
+        left: 0px;
+        top: -13px;
+    
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        /* identical to box height, or 200% */
+    
+        text-align: center;
+    
+        color: #55F991;
+}

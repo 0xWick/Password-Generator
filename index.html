@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Karla:wght@800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style..css">
+</head>
+
+<body>
+
+    <!-- Main Wrapper -->
+    <div class="main-wrapper">
+
+        <!-- Main heading -->
+        <h1 class="main-heading">
+            Generate a <br><span class="green-text">random password</span>
+        </h1>
+
+        <!-- Main Paragraph -->
+        <p class="main-para">
+            Never use an insecure password again.
+        </p>
+
+
+        <!-- Buttons -->
+        <!-- Generate Button -->
+        <button class="gen-btn" onclick="generator()">
+            <!-- Flash Icon -->
+            <div>
+                <img class="flash" src="./flash.png">
+            </div>
+
+            <!-- Button Text -->
+
+            <div class="btn-text">Generate passwords</div>
+
+
+        </button>
+        <span class="green-text len-title">Set Length: </span>
+        <div class="btn-2">
+
+
+            <input id="input" class="var-input" type="number" placeholder="Default: 15" onchange="generator()">
+            </input>
+
+        </div>
+
+        <div class="line"></div>
+
+
+        <!-- Passwords Section -->
+        <div class="pass-section">
+
+            <div class="item-1">
+                <button id="copy-1" class="copy-btn" onclick="copy()">Copy</button>
+                <input type="text" id="pass-el-1">
+                <input>
+                <p id="pass-el-1" class="pass-1">-
+                </p>
+
+            </div>
+
+            <div class="item-2">
+                <p id="pass-el-2" class="pass-2">-
+                </p>
+            </div>
+
+            <div class="item-3">
+                <p id="pass-el-3" class="pass-3"> -
+                </p>
+            </div>
+
+            <div class="item-4">
+                <p id="pass-el-4" class="pass-4">-</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
