@@ -12,7 +12,7 @@ function copy() {
     navigator.clipboard.writeText(copyText.value);
 
     /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
+    // alert("Copied the text: " + copyText.value);
 }
 
 function generator() {
@@ -66,7 +66,7 @@ function generator() {
     // console.log(passThree_El)
     // console.log(passFour_El)
 
-    passOne_El.textContent = passwordOne
+    passOne_El.value = passwordOne
     passTwo_El.textContent = passwordTwo
     passThree_El.textContent = passwordThree
     passFour_El.textContent = passwordFour
